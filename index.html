@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nature Tracking </title>
+  <!-- google font -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- google font -->
+  <!-- boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- boxicons -->
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- swiper -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header>
+    <div class="container">
+      <div class="header__content" id="header__content">
+        <button class="btn-open-menu" id="btn-open-menu">
+          <i class="bx bx-menu"></i>
+        </button>
+        <div class="header__logo">
+          <img src="./assets/logo.png" alt="logo">
+        </div>
+        <nav>
+          <button class="btn-close-menu" id="btn-close-menu">
+            <i class="bx bx-left-arrow-alt"></i>
+          </button>
+          <ul>
+            <li>
+              <a href="#">North India</a>
+            </li>
+            <li>
+              <a href="#">South India</a>
+            </li>
+            <li>
+              <a href="#">Hill station</a>
+            </li>
+            <li>
+              <a href="#">Lakes</a>
+            </li>
+            <li>
+              <a href="#">contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__menu">
+          <ul>
+            <li>
+              <a href="#">search</a>
+            </li>
+            <li>
+              <a href="#">cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- header -->
+
+  <!-- hero slider -->
+  <section>
+    <div class="hero">
+      <div class="swiper hero__swiper">
+        <div class="swiper-wrapper">
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="hero__bg bg-image"
+              style="background-image: url(./assets/bg/divya-agrawal-VV0fF4EoZaI-unsplash.jpg); background-color: rgba(0,0,0,0.5);"></div>
+            <div class="container">
+              <div class="hero__content">
+                <div class="hero__txt">
+                  <h2>Jammu & Kashmir
+                  </h2>
+                  <p>Jammu and Kashmir is a region administered by India as a union territory and consists of the
+                    southern portion of the larger Kashmir region, which has been the subject of a dispute between India
+                    and Pakistan since 1947, and between India and China since 1962.</p>
+                  <button class="btn">Let's Visit</button>
+                </div>
+                <div class="hero__img">
+                  <img src="./assets/products/jannes-jacobs-KRIGA7iUN08-unsplash.jpg" alt="product image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="hero__bg bg-image"
+              style="background-image: url(./assets/bg/renaldo-matamoro-weJBleMT_CA-unsplash.jpg); background-color: rgba(0,0,0,0.5);"></div>
+            <div class="container">
+              <div class="hero__content">
+                <div class="hero__txt">
+                  <h2>Ladakh</h2>
+                  <p>Ladakh is a region administered by India as a union territory which constitutes a part of the
+                    larger Kashmir region and has been the subject of dispute between India, Pakistan, and China since
+                    1947.</p>
+                  <button class="btn">Let's Visit</button>
+                </div>
+                <div class="hero__img">
+                  <img src="./assets/products/yaser-nabi-mir-iMnIu-GoEeE-unsplash.jpg" alt="product image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="hero__bg bg-image"
+              style="background-image: url(./assets/bg/jeshika-sinojia-1AxWyxD3ngw-unsplash.jpg); background-color: rgba(0,0,0,0.5);"></div>
+            <div class="container">
+              <div class="hero__content">
+                <div class="hero__txt">
+                  <h2>Andaman & Nicobar Islands
+                  </h2>
+                  <p>The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are
+                    known for their palm-lined, white-sand beaches, mangroves and tropical rainforests.</p>
+                  <button class="btn">Let's Visit</button>
+                </div>
+                <div class="hero__img">
+                  <img src="./assets/products/tatonomusic-60-LviCN4F4-unsplash.jpg" alt="product image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <!-- hero slider -->
+
+  <!-- top products -->
+  <section>
+    <div class="container">
+      <div class="top-product__header">
+        <h2 class="section__title no-margin">
+          India's Top Lakes
+        </h2>
+        <div class="top-product__swiper__btn" id="top-product__swiper__btn">
+          <div class="swiper-button btn-prev">
+            <i class="bx bx-chevron-left"></i>
+          </div>
+          <div class="swiper-button btn-next">
+            <i class="bx bx-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      <div class="swiper top-product__swiper">
+        <div class="swiper-wrapper">
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="./assets/products/leeder-bose-w2OD4byLz6w-unsplash.jpg" alt="product image">
+              </div>
+              <div class="product__info">
+                <h5 class="product__name">Loktak Lake</h5>
+                <span class="product__price">⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="./assets/products/aditya-rao-n1666P1ReCA-unsplash.jpg" alt="product image">
+              </div>
+              <div class="product__info">
+                <h5 class="product__name">Pangong Tso</h5>
+                <span class="product__price">⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="./assets/products/darshan-chudasama-rvIGtbhG_ks-unsplash.jpg" alt="product image">
+              </div>
+              <div class="product__info">
+                <h5 class="product__name">Dal Lake</h5>
+                <span class="product__price">⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="./assets/products/aaron-burden-ufFIweqSPd4-unsplash.jpg" alt="product image">
+              </div>
+              <div class="product__info">
+                <h5 class="product__name">Wular Lake</h5>
+                <span class="product__price">⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+          <!-- slide item -->
+          <div class="swiper-slide">
+            <div class="product-card">
+              <div class="product__image">
+                <img src="./assets/products/wayne_ooone-wang-QFOJyx8zMn8-unsplash.jpg" alt="product image">
+              </div>
+              <div class="product__info">
+                <h5 class="product__name">Pulicat Lake</h5>
+                <span class="product__price">⭐⭐⭐⭐⭐</span>
+              </div>
+            </div>
+          </div>
+          <!-- slide item -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- top products -->
+
+  <!-- category banner -->
+  <section>
+    <div class="container">
+      <h2 class="section__title">Hill stations / India</h2>
+      <div class="category__grid">
+        <!-- item -->
+        <div class="category__item category__top">
+          <div class="category__banner bg-image"
+            style="background-image: url(./assets/bg/sonika-agarwal-faj5OtHI9fg-unsplash.jpg);"></div>
+          <div class="category__overlay"></div>
+          <div class="category__border"></div>
+          <div class="category__txt">Lonavala hill </div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="category__item category__left">
+          <div class="category__banner bg-image"
+            style="background-image: url(./assets/bg/romeio-paul-YWigmi2HdXE-unsplash.jpg);"></div>
+          <div class="category__overlay"></div>
+          <div class="category__border"></div>
+          <div class="category__txt">Kufri hill</div>
+        </div>
+        <!-- item -->
+        <!-- item -->
+        <div class="category__item category__right">
+          <div class="category__banner bg-image"
+            style="background-image: url(./assets/bg/amal-george-2mzDDAkV6T0-unsplash.jpg);"></div>
+          <div class="category__overlay"></div>
+          <div class="category__border"></div>
+          <div class="category__txt">Ranipuram Hill</div>
+        </div>
+        <!-- item -->
+      </div>
+    </div>
+  </section>
+  <!-- category banner -->
+
+  <!-- promotion product -->
+  <section>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__txt">
+          <h2>Statue Of Unity</h2>
+          <p>The Statue of Unity is the world's tallest statue, with a height of 182 metres, located near Kevadia in the
+            state of Gujarat, India. It depicts Indian statesman and independence activist Vallabhbhai Patel, who was
+            the first deputy prime minister and home minister of independent India and an adherent of Mahatma Gandhi.
+          </p>
+          <button class="btn">Let's Visit</button>
+        </div>
+        <div class="hero__img">
+          <img src="./assets/products/kunj-patel-Ww2pmq2oQ08-unsplash.jpg" alt="product image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- promotion product -->
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="footer__col">
+          <a href="#" class="logo">
+            <img src="./assets/logo.png" alt="logo">
+          </a>
+          <div class="social-list">
+            <a class="aa" href=""><i class="bi bi-whatsapp"></i></a>
+            <a class="tt" href=""><i class="bi bi-facebook"></i></a>
+            <a class="bb" href=""><i class="bi bi-instagram"></i></a>
+            <a class="dd" href=""><i class="bi bi-github"></i></a>
+            <a class="cc" href=""><i class="bi bi-twitter"></i></a>
+            <a class="ee" href=""><i class="bi bi-linkedin"></i></a>
+            <a class="ff" href=""><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <div class="footer__header">Information</div>
+          <ul class="footer__menu">
+            <li>
+              <a href="#">Find a Place</a>
+            </li>
+            <li>
+              <a href="#">Make Plan</a>
+            </li>
+            <li>
+              <a href="#">Gift</a>
+            </li>
+            <li>
+              <a href="#">Feedback</a>
+            </li>
+            <li>
+              <a href="#">Become a member</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__header">Natur Tracking</div>
+          <ul class="footer__menu">
+            <li>
+              <a href="#">North India</a>
+            </li>
+            <li>
+              <a href="#">South India</a>
+            </li>
+            <li>
+              <a href="#">Hill Station</a>
+            </li>
+            <li>
+              <a href="#">Lakes</a>
+            </li>
+            <li>
+              <a href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <div class="footer__header">About</div>
+          <ul class="footer__menu">
+            <li>
+              <a href="#">News Sellter</a>
+            </li>
+            <li>
+              <a href="#">Careers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- swiper -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
